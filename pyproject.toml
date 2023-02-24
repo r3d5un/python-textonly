@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "textonly"
+version = "0.1.0"
+description = "A blog app focusing on text only blog posts"
+authors = ["r3d5un <r3d5un@pm.me>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+gunicorn = "^20.1.0"
+Flask = "^2.2.3"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.2.1"
+isort = "^5.12.0"
+black = "^23.1.0"
+flake8 = "^6.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
